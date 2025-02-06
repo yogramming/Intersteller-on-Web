@@ -11,6 +11,120 @@
 /* LAYOUT
 /*******************************************/
 
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #20017e;
+  color: white;
+}
+
+header .logo img {
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Section */
+main {
+  padding: 40px 20px;
+}
+
+.information {
+  margin: 40px;
+}
+
+.information h2 {
+  margin-bottom: 20px;
+  color: rgb(30, 30, 168);
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: rgb(195, 195, 195);
+}
+.input-section {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.input-section input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.input-section button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.input-section button:hover {
+  background-color: #45a049;
+}
+
+/* Hidden Sections */
+.hidden-section {
+  display: none;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+}
+
+.hidden-section h2 {
+  color: #333;
+}
+
+.hidden-section img {
+  width: 100vh;
+  height: 100vh;
+  /* margin-left: 25vh; */
+}
+
+/* Show Hidden Sections on Button Click */
+.show {
+  display: block;
+}
 
 
 /******************************************
