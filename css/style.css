@@ -33,19 +33,30 @@ ul {
 }
 
 /* Header Styles */
+header .logo img {
+  max-height: 100px;
+  max-width: 100%;
+  /* width: 100px; */
+  margin: none;
+  /* object-fit: contain; */
+}
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #20017e;
+  background-color: #000000;
   color: white;
+  height: 100px;
+}
+header h1 {
+  margin-left: -300px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header .logo img {
-  height: 50px;
+  object-fit: contain;
 }
-
 nav ul {
   display: flex;
   gap: 20px;
